@@ -1,0 +1,27 @@
+.popupContainter {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .6);
+    z-index: 10;
+    top: 0;
+    left: 0;
+    color: #EEE;
+}
+
+.popupWindow{
+    padding: 5rem;
+    width: 100rem;
+    height: 50rem;
+    background: #0F3460;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+
+.popupClose{
+    margin-left: auto;
+}

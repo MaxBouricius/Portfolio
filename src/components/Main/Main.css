@@ -1,0 +1,19 @@
+.front{
+    color: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 60rem;
+}
+
+.front__name{
+    font-size: 250%;
+}
+
+.front__hr{
+   margin: 1rem;
+   width: 50rem;
+   border: 0.4rem solid #EEE;
+   border-radius: 10rem;
+}

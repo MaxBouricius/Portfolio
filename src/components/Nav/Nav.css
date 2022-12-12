@@ -1,0 +1,41 @@
+
+.navbarWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    margin-top: 2%;
+    background: #E94560;
+    border-radius: 4rem;
+    width: 55rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    gap: 8rem;
+}
+
+.navbar__listitem a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #EEE;
+    background: #EF506A;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0.2rem 0.2rem rgba(31, 31, 31, 0.2);
+}
+
+.navbar__listitem a:visited{
+    color: #EEE;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
