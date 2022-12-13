@@ -1,12 +1,14 @@
-import Top from "../../components/Top/Top"
-import Bottom from "../../components/Bottom/Bottom"
-import Footer from "../../components/Footer/Footer"
+import Top from "../../components/HomePageComponents/Top/Top"
+import Bottom from "../../components/HomePageComponents/Bottom/Bottom"
+import SkillsSection from "../../components/HomePageComponents/SkillsSection/SkillsSection";
+import Footer from "../../components/GeneralComponents/Footer/Footer";
 
 const Homepage = () => {
     return (
         <>
             <Top />
             <Bottom />
+            <SkillsSection/>
             <Footer />
         </>
     )

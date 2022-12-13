@@ -1,5 +1,5 @@
 import "./Top.css";
-import Nav from "../Nav/Nav";
+import Nav from "../../GeneralComponents/Nav/Nav";
 import Main from "../Main/Main";
 const Top = () => {
     return(

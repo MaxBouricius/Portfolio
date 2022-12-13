@@ -1,6 +1,6 @@
-import Nav from "../../components/Nav/Nav";
-import AboutSection from "../../components/AboutSection/AboutSection";
-import Footer from "../../components/Footer/Footer";
+import Nav from "../../components/GeneralComponents/Nav/Nav";
+import AboutSection from "../../components/AboutPageComponents/AboutSection/AboutSection";
+import Footer from "../../components/GeneralComponents/Footer/Footer";
 const AboutPage = () => {
     return (
         <>

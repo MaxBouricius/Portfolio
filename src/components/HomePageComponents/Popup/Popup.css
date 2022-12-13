@@ -15,7 +15,7 @@
 .popupWindow{
     padding: 5rem;
     width: 100rem;
-    height: 50rem;
+    height: 80rem;
     background: #0F3460;
     display: flex;
     flex-direction: column;

@@ -1,8 +1,8 @@
 import "./ContactPage.css";
 
-import Nav from "../../components/Nav/Nav";
-import Contact from "../../components/Contact/Contact";
-import Footer from "../../components/Footer/Footer";
+import Nav from "../../components/GeneralComponents/Nav/Nav";
+import Contact from "../../components/ContactPageComponents/Contact/Contact";
+import Footer from "../../components/GeneralComponents/Footer/Footer";
 const ContactPage = () => {
     return (
         <>

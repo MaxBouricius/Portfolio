@@ -1,0 +1,16 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    color: #EEE;
+    align-items: center;
+}
+.skills__h2{
+    margin: 2rem;
+}
+.skills__cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}

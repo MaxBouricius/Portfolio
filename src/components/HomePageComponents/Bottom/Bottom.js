@@ -18,7 +18,6 @@ const Bottom = () => {
             ImageText: "Project Input Output",
             CoverImage: "https://cdn.discordapp.com/attachments/472832654602010634/1036609102656327730/IOproject.png"
         },
-
     ]
     return (
         <>

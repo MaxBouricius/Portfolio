@@ -1,0 +1,18 @@
+.skills__card{
+    min-width: 50rem;
+    min-height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.3rem solid #092547;
+    background: #0c2f5a;
+    border-radius: 5rem;
+    font-size: 150%;
+    color: #EEE;
+    margin: 1rem;
+}
+
+#icon{
+    font-size: 180%;
+}
