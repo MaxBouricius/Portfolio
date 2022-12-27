@@ -8,20 +8,44 @@ const Bottom = () => {
     const projects = [
         {
             ImageText: "CPP-Calculator",
-            CoverImage: "https://cdn.discordapp.com/attachments/472832654602010634/1036609020812865536/unknown.png"
+            Image: "https://cdn.discordapp.com/attachments/472832654602010634/1036609020812865536/unknown.png",
+            popupText: "In this project heb ik geleerd hoe ik een Switch expressie kan gebruiken samen met een Case clausule om een simpele command prompt calculator te maken.",
+            link: "https://github.com/MaxBouricius/CPP-Calculator"
         },
         {
             ImageText: "Project IK",
-            CoverImage: "https://cdn.discordapp.com/attachments/472832654602010634/1036609093516939274/IKproject.png"
+            Image: "https://cdn.discordapp.com/attachments/472832654602010634/1036609093516939274/IKproject.png",
+            popupText: "",
+            link: "https://github.com/MaxBouricius/Project-IK",
         },
         {
             ImageText: "Project Input Output",
-            CoverImage: "https://cdn.discordapp.com/attachments/472832654602010634/1036609102656327730/IOproject.png"
+            Image: "https://cdn.discordapp.com/attachments/472832654602010634/1036609102656327730/IOproject.png",
+            popupText: "",
+            link: "https://github.com/MaxBouricius/IO-project-",
+        },
+        {
+            ImageText: "",
+            Image: "",
+            popupText: "",
+            link: "",
+        },
+        {
+            ImageText: "",
+            Image: "",
+            popupText: "",
+            link: "",
+        },
+        {
+            ImageText: "",
+            Image: "",
+            popupText: "",
+            link: "",
         },
     ]
     return (
         <>
-            {popupState ? <Popup popup={projects[projectIndex]} setter={setPopupState} /> : null}
+            {popupState ? <Popup popup={projects[projectIndex]} setter={setPopupState}  project={projects}/> : false}
             <section className="bottom">
                 <h2 className="bottom__h2">Projects</h2>
                 <hr className="bottom__hr" />
@@ -29,7 +53,7 @@ const Bottom = () => {
                     {projects.map((project, index) => {
                         return (
                             <div onClick={() => { setProjectIndex(index); setPopupState(true) }}>
-                                <ProjectCard ImageText={project.ImageText} CoverImage={project.CoverImage} />
+                                <ProjectCard projects={project} />
                             </div>
                         )
                     })}

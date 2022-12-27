@@ -1,9 +1,9 @@
 import "./ProjectCard.css";
-const ProjectCard = ({ CoverImage, ImageText }) => {
+const ProjectCard = ({ projects }) => {
     return (
         <section className="ProjectCard"> 
-            <img className="ProjectCard__image" src={CoverImage} alt="" />
-            <p className="ProjectCard__imageText">{ImageText}</p>
+            <img className="ProjectCard__image" src={projects.Image} alt="image" />
+            <p className="ProjectCard__imageText">{projects.ImageText}</p>
         </section>
     )
 }

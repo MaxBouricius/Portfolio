@@ -13,15 +13,59 @@
 }
 
 .popupWindow{
-    padding: 5rem;
-    width: 100rem;
-    height: 80rem;
+    width: 70rem;
+    height: 45rem;
     background: #0F3460;
     display: flex;
     flex-direction: column;
-    border-radius: 2rem;
+    border-radius: 1rem;
+    position: relative;
 }
 
+
+
 .popupClose{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
     margin-left: auto;
 }
+
+.popup__image{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.popup__textSection{
+    margin: 1rem;
+    
+}
+
+.popup__textSection h2{
+    font-size: 100%; 
+}
+
+.popup__textSection p{
+    font-size: 80%; 
+}
+
+.popup__textSection2{
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
