@@ -2,12 +2,11 @@ import "./Popup.css";
 
 function Popup(props) {
   const {popup, setter} = props;
+
   return (
     <div className="popupContainter" >
         <article className="popupWindow">
-            <span className="popupClose" onClick={() =>setter(false) }>
-                x
-            </span>
+            <i onClick={() =>setter(false) } class="fa-regular fa-circle-xmark popupClose"></i>
             <img className="popup__image" src={popup.Image} alt="cover" />
             
             

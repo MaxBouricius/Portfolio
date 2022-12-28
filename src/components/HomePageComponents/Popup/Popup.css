@@ -25,10 +25,14 @@
 
 
 .popupClose{
+    font-size: larger;
     position: absolute;
     top: 1rem;
     right: 1.5rem;
     margin-left: auto;
+    color: #0F3460;
+    background-color: #ffffff;
+    border-radius: 50%;
 }
 
 .popup__image{
@@ -53,6 +57,16 @@
 
 .popup__textSection2{
     padding: 1rem;
+}
+
+.popup__textLink{
+    color: #EEE;
+    padding: .5rem;
+    border-radius: 5rem;
+    font-size: 80%; 
+}
+.popup__textLink:hover{
+    color: rgb(156, 151, 151);
 }
 
 
