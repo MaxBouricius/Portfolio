@@ -9,58 +9,59 @@ const Bottom = () => {
         {
             ImageText: "BeroepsOprachtM10",
             Image: "https://media.discordapp.net/attachments/472832654602010634/1057295969466712114/image.png?width=720&height=353",
-            popupText: "Voor dit project moet ik een webpagina maken in de style van Indeed met een aantal functies bijvoorbeeld een item selector waar je verschillende producten heb waar je op kan clicken om meer details te laten zien. Dit wordt allemaal met react gemaakt.",
+            popupText: "For this project I made a webpage in the style of the website Indeed, with a bunch of functions like an item selector where you can add product, and then select them for more information on the product and a login function using php. This project is made fully in ReactJS using React-Router and React-Redux as well.",
+            popupText2: "",
             link: "https://github.com/MaxBouricius/BeroepsOpdrachtM9-10",
         },
         {
             ImageText: "Trello clone in react",
             Image: "https://media.discordapp.net/attachments/472832654602010634/1057295971106697337/image.png?width=720&height=289",
-            popupText: "Hier moet ik een Trello clone maken door gebruik te maken van React-Redux.",
+            popupText: "For this project I made a basic clone of the project management app/website Trello.",
+            popupText2: "(This is a Skill-building project, that means that I follow the teacher Jeroen Rijsdijk in making this app after which I have to thoroughly explain how it works in order for it to be accepted.)",
             link: "https://github.com/MaxBouricius/Trellie",
         },
         {
             ImageText: "ReactSearch",
             Image: "https://media.discordapp.net/attachments/472832654602010634/1057295971786182686/image.png?width=720&height=353",
-            popupText: "Voor deze opdracht moest ik een zoek functie maken in React door gebruik te maken van de .filter JavaScript methode.",
+            popupText: "For this project I made a search function in ReactJS using the .filter method from JavaScript.",
+            popupText2: "(This is a Skill-building project, that means that I follow the teacher Jeroen Rijsdijk in making this app after which I have to thoroughly explain how it works in order for it to be accepted.)",
             link: "https://github.com/MaxBouricius/React-search",
         },
         {
             ImageText: "ReactRouter",
             Image: "https://media.discordapp.net/attachments/472832654602010634/1057295969970049094/image.png?width=720&height=350",
-            popupText: "Bij dit project hebben we geleerd hoe React-Router werkt doormiddel van een simpel formulier te maken die in meerdere routes werkt.",
+            popupText: "In this project I learned how to use React-Router by making a simple form app that works in multiple routes.",
+            popupText2: "(This is a Skill-building project, that means that I follow the teacher Jeroen Rijsdijk in making this app after which I have to thoroughly explain how it works on order for it to be accepted.)",
             link: "",
         },
         {
             ImageText: "ReactDashboard",
             Image: "https://media.discordapp.net/attachments/472832654602010634/1057295970481733692/image.png?width=720&height=355",
-            popupText: "Hier hebben we geleerd hoe je iets toevoegt aan de state zonder backend.",
+            popupText: "In this project I learned how to add things to the state without any backend just ReactJS",
+            popupText2: "(This is a Skill-building project, that means that I follow the teacher Jeroen Rijsdijk in making this app after which I have to thoroughly explain how it works in order for it to be accepted.)",
             link: "",
         },
         {
             ImageText: "Project IK",
             Image: "https://cdn.discordapp.com/attachments/472832654602010634/1036609093516939274/IKproject.png",
-            popupText: "Dit was mijn eerste echte website die ik gemaakt heb voor een school project.",
+            popupText: "This was my very first website that I made for school.",
+            popupText2: "",
             link: "https://github.com/MaxBouricius/Project-IK",
         },
         {
             ImageText: "CPP-Calculator",
             Image: "https://cdn.discordapp.com/attachments/472832654602010634/1036609020812865536/unknown.png",
-            popupText: "In this project heb ik geleerd hoe ik een Switch expressie kan gebruiken samen met een Case clausule om een simpele command prompt calculator te maken.",
+            popupText: "In this project I learned how to use a Switch expression with a Case clause to make a simple command prompt calculator.",
+            popupText2: "",
             link: "https://github.com/MaxBouricius/CPP-Calculator"
         },
         {
             ImageText: "Project Input Output",
             Image: "https://cdn.discordapp.com/attachments/472832654602010634/1036609102656327730/IOproject.png",
-            popupText: "Dit project was voor mij een introductie tot Unity game engine eigenlijk gewoon proberen en kijken of ik het iets vond, uiteindelijk heb ik gekozen om hier niet mee door te gaan.",
+            popupText: "This project was an introduction to Unity Game Engine just to see if it was something I would enjoy, but in the end I did not go any further with this software.",
+            popupText2: "",
             link: "https://github.com/MaxBouricius/IO-project-",
         },
-        {
-            ImageText: "XR-lab Hilversum project VTD",
-            Image: "https://cdn.discordapp.com/attachments/1016700032730275971/1031503591258730516/unknown.png",
-            popupText: "",
-            link: "",
-        },
-
     ]
     return (
         <>
@@ -77,7 +78,6 @@ const Bottom = () => {
                         )
                     })}
                 </div>
-
             </section>
         </>
     )

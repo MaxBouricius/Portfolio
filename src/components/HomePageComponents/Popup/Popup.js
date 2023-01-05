@@ -13,8 +13,11 @@ function Popup(props) {
             <div className="popup__textSection">
               <h2>{popup.ImageText}</h2>
               <div className="popup__textSection2">
+                <div>
                 <p>{popup.popupText}</p>
-                <a className="popup__textLink" href={popup.link}>lees meer...</a>
+                <a className="popup__textLink" href={popup.link}>Read more...</a>
+                </div>
+                <p className="popup__text2">{popup.popupText2}</p>
               </div>
               
             </div>

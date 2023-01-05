@@ -18,7 +18,7 @@ const AboutSection = () => {
                         <br />
                         In my free time I like to read, talk to people and play games. Currently my favorite novel is The Beginning After the End.
                         <br />
-                        Other things I like to do in my free time is practice piano and working on my personal projects be that computer building or something else.
+                        Other things I like to do in my free time is practice piano and work on my personal projects, be that computer building or something else.
                     </p>
                 </div>
 

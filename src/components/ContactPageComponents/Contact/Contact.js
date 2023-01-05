@@ -11,6 +11,7 @@ const Contact = () => {
                 <p className="contact__title">Message/Question</p>
                 <input className="contact__text" type="text" placeholder="Message/Question" />
                 <input className="contact__button" type="button" value="Send!" />
+                <p>(Dit gedeelte van de website is nog niet klaar)</p>
             </article>
             
         </section>

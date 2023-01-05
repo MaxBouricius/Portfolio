@@ -7,7 +7,7 @@ const Main = () => {
         <section className="front">
             <h1 className="front__name">Max Peter Bouricius</h1>
             <hr className="front__hr"/>
-            <h2 className="front__title">Frontend Developer</h2>
+            <h2 className="front__title">Full-Stack Developer</h2>
         </section>
     </>
   ) 
